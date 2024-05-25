@@ -21,7 +21,7 @@ public class GameOver : MonoBehaviour
   private void OnTriggerStay2D(Collider2D other)
   {
     _timeLeft += Time.deltaTime;
-    if (_timeLeft > 3)
+    if (_timeLeft > 2)
     {
     
       if (StatsData.Score > StatsData.MaxScore)
